@@ -1,29 +1,19 @@
-<!-- <mat-toolbar color="primary">
-<mat-toolbar-row style="background-color: brown;">
-    <span>Third Line</span>
-    <span class="example-spacer"></span>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon>
-  </mat-toolbar-row>
-</mat-toolbar> -->
-
 <mat-toolbar class="header" >
   <mat-toolbar-row>
     <!-- <img src="/src/assets/Images/book-open-solid.svg"> -->
       <span>bookstore</span>
       <span [formGroup]="header" class="input-feild">
         <button mat-button>
-            <mat-icon>search</mat-icon>
+          <mat-icon>search</mat-icon>
         </button>
         <input matInput type="text" formControlName="dataa" autocomplete="off" placeholder="search">
-    </span>
+      </span>
       <span class="example-spacer"></span>
       <button mat-icon-button #tooltip="matTooltip" matTooltip="wishlist">
         <mat-icon matBadge="{{list}}" matBadgeColor="warn" routerLink="list">favorite_border</mat-icon>
     </button>
     <button mat-icon-button #tooltip="matTooltip" matTooltip="cart" class="bag">
       <mat-icon matBadge="{{bag}}" matBadgeColor="warn" (click)="gotoCart()" >shopping_cart</mat-icon>
-  </button>
-    
-    </mat-toolbar-row>
-  </mat-toolbar>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>

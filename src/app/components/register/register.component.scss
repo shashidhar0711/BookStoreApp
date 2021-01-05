@@ -1,132 +1,3 @@
-// .card {
-//     transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
-//     display: block;
-//     position: relative;
-//     padding: 16px;
-//     border-radius: 4px;
-//     width: 500px;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
-// .main{
-//     min-height:-webkit-fill-available !important;
-//     width: 500px;
-//     max-height: fit-content;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-//   .f{
-//     color:#4285F4;
-//     }
-//     .u{
-//     color:#DB4437
-//     }
-//     .n{
-//       color: #F4B400
-//     }
-//     .d{
-//       color:#4285F4;
-//     }
-//     .o{
-//       color:  #0F9D58
-//     }
-//     .O{
-//       color:#DB4437
-//     }
-  
-  
-//   a {
-//     text-decoration: none;
-//   }
-  
-//   .i{
-//     margin-top: 20%;
-//   }
-//   .signIn{
-//     color: #4586ee;
-//     font-weight: bold;
-//     cursor: pointer;
-//     // margin-top: 20%;
-//   }
-  
-//   .main{
-//     min-height:-webkit-fill-available !important;
-//   }
-//   .card :hover{
-//     background-color: #ffa500;
-//     transform: scale(1.1); 
-    
-//    }
-//    .service{
-//     margin-left: 36px;
-//     margin-top: 36px;
-//   }
-//   .message{
-//     margin-top: 8px;
-//   }
-  
-  
-  
-  
-//   .selected{
-//     background-color: #e6ac00;
-//     width: fit-content;
-//     max-width: 144px;
-  
-//   .insideMat{
-//      margin-left: -36px;
-//      margin-top: -36px;
-//      min-height: 212px;
-//   }
-
-//   }
-//   .notSelected{
-//     background-color: #b8b5ae;
-//     width: fit-content;
-//     max-width: 144px;
-  
-//     .insideMat{
-//         margin-left: -36px;
-//         margin-top: -36px;
-//      min-height: 212px;
-  
-//     }
-//   }
-
-//   .main[_ngcontent-rmw-c1] {
-//     // min-height: -webkit-fill-available !important;
-//     width: 500px;
-//     // max-height: -webkit-fit-content;
-//     // max-height: -moz-fit-content;
-//     max-height: fit-content;
-//     margin-left: auto;
-//     margin-right: auto;
-//     width: 388px;
-//     margin-top: 20px;
-// }
-
-// .mat-card {
-//   margin-top: 17px;
-//   transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
-//   display: block;
-//   position: relative;
-//   padding: 16px;
-//   border-radius: 4px;
-// }
-
-// .mat-form-field {
-//   display: inline-block;
-//   position: relative;
-//   text-align: left;
-//   width: 270px;
-// }
-
-// .registration{
-//     width: 600px;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
-
 .header {
     font-size: 27px;
     /* align-items: center; */
@@ -137,14 +8,6 @@
     padding-bottom: 8px;
     text-align: center;
 }
-
-
-// .mat-raised-button[disabled]:not([class*=mat-elevation-z]) {
-//   /* padding-left: 52px; */
-//   box-shadow: 0 0 0 0 rgba(0,0,0,.2), 0 0 0 0 rgba(0,0,0,.14), 0 0 0 0 rgba(0,0,0,.12);
-//   margin-left: 77px;
-// }
-
 .mat-card {
     transition: box-shadow 280ms cubic-bezier(.4,0,.2,1);
     display: block;
@@ -153,14 +16,6 @@
     border-radius: 4px;
     margin-top: 31px;
 }
-
-// .main-div{
-//     height: 100vh;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
   .mat-card {
     transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
@@ -172,7 +27,6 @@
     margin-left: 310px;
     margin-top: -27px;
 }
-
 .mat-card {
     transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
@@ -185,7 +39,6 @@
     padding-bottom: 1px;
     padding-top: 31px;
 }
-
 .mat-form-field {
     display: inline-block;
     position: relative;
@@ -201,7 +54,6 @@
     margin-top: -23px;
     padding-top: 14px;
 }
-
 .mard-card-title {
     color: brown;
     font-size: 23px;
